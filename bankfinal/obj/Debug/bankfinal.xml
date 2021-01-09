@@ -1,0 +1,136 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bankfinal
+</name>
+</assembly>
+<members>
+<member name="T:bankfinal.dataDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSet.Branch_detailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSet.Customer_detailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSet.Transaction_detailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSet.Branch_detailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSet.Customer_detailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSet.Transaction_detailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSet.Branch_detailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSet.Customer_detailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSet.Transaction_detailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSetTableAdapters.Branch_detailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSetTableAdapters.Customer_detailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSetTableAdapters.Transaction_detailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:bankfinal.dataDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(bankfinal.dataDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:bankfinal.dataDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(bankfinal.dataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:bankfinal.dataDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(bankfinal.dataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:bankfinal.dataDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:bankfinal.dataDataSetTableAdapters.TableAdapterManager.UpdateAll(bankfinal.dataDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:bankfinal.dataDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:bankfinal.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:bankfinal.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:bankfinal.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:bankfinal.My.Resources.Resources.Bank">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
